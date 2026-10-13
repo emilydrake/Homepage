@@ -1,0 +1,75 @@
+
+
+body {
+    background-image: url('DirtDirt.png');
+     background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0; /* Ensures no default margin/padding causes scrollbars */
+  padding: 0;
+  height: 100vh; /* Ensures the body covers the full viewport height */
+  width: 100vw;
+}
+
+
+.top-bar {
+  background-color: rgb(9, 131, 52); /* SaddleBrown color */
+  color: white; /* Text color */
+  position: fixed; /* Fixes to top */
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100px; 
+  padding: 5px;
+  border: solid 7px #08390f; 
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  z-index: 1000; /* Keeps it above other content */
+}
+
+.image-container2 {
+  max-width: 100%; /* Ensures images scale within their container */
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: 600px;
+  height: 200px;
+  object-fit: cover; /* Optional: ensures images fill their fixed space without distortion */
+}
+
+.image-container {
+  display: flex; /* Makes the container a flex container */
+  justify-content: center; /* Optional: centers the images horizontally */
+  gap: 20px; /* Optional: adds space between images */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensures images scale within their container */
+  margin-top: 150px;
+  height: auto; /* Maintains aspect ratio */
+  /* You can also set a fixed width and height if needed */
+  width: 600px;
+  height: 450px;
+  object-fit: cover; /* Optional: ensures images fill their fixed space without distortion */
+}
+
+.door img {
+    position: center;
+    margin-top: 0px;
+    bottom: 0;
+    width: 1000px; /* or a percentage value, e.g., 50% */
+    height: 1000px;
+
+}
+
+
+
+
+
+
+
+
+

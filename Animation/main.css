@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+.box {
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    position:relative;
+    
+    animation-name: test;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+    animation: test 5s 2s 1 infinite ease-in-out
+    alternate both;
+ 
+}
+
+/* the animation code */ 
+@keyframes test {
+    0% {
+        background: rgb(255, 62, 8);
+        top:0;
+    }
+    25%{
+        background: rgb(249, 240, 62);
+    }
+    50% {
+        background-color: rgb(255, 143, 24);
+    }
+    75% {
+        background-color: green;
+    }
+    90% {
+        background: rgb(97, 102, 255);
+    }
+    100%{
+        background: purple;
+        top:400px;
+    }
+}
+
+.container {
+    background: lightskyblue;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center
+}
+
+.circle {
+    background: lightpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation: pulse 1.5s infinite alternate ease;
+}
+
+@keyframes pulse {
+    0% {
+        background: lightpink;
+        scale:1;
+    }
+    100% {
+        background: orangered;
+        scale:1.4;
+    }
+}
+
+.square{
+    background: lightpink;
+    width: 100px;
+    height: 100px;
+    animation: spin 3s infinite linear;
+
+}
+
+@keyframes spin {
+    0%{
+        rotate: 0;
+
+    }
+    100%{
+        rotate: 360deg;
+
+    }
+}

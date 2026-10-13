@@ -1,0 +1,58 @@
+
+
+
+@font-face {
+    font-family: 'family-guy-font';
+    src: url('family-guy-font/FamilyGuy-4grW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+    text-align: center;
+    font-family: 'family-guy-font', sans-serif;
+    font-size: 50pt;
+
+    position: fixed;
+    top:20px;
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'family-guy-font', sans-serif;
+}
+
+html {
+    min-height:100%;
+}
+
+body {
+    margin-top: 100px;
+    background-image: url(395604.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-top: 120px;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+head {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}

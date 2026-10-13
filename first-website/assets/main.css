@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(255, 216, 149);
+    font-size:20px;
+}
+
+p {
+    background-color: rgb(255, 162, 193);
+    border-width: 5px;
+    border-style:dashed; 
+    border-color:rgb(196, 14, 126);
+
+    /* margin will create ecternal space around our element */
+
+    /*padding is internal spacing*/
+
+    margin:50px;
+
+    padding:50px;
+}
+
+h1{
+    color:hotpink;
+    font-size:90px;
+    text-align: center;
+    background-color: lemonchiffon;
+}
+
+/* in css classes are denoted by a . in front of their class name */
+.banner {
+    background-color: lemonchiffon;
+    font-size: 40px;
+    text-align:center
+}

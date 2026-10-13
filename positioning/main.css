@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box {
+    background-color: darksalmon;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+}
+
+.relative {
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.fixed {
+    background-color: darkviolet;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+.sticky {
+    background-color: teal;
+    position: sticky;
+    top: 0;
+
+}
+
+.absolute {
+    background-color: darkolivegreen;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.grandparent {
+    background: red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+
+}
+
+.parent {
+    background: lightgreen;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+/* absolute positional elements will positioin themselves reletive to the document body unlless they have a parent/ container that has also been given a position value */
+
+.child {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.smiley {
+    background: rgb(255, 190, 25);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.eye {
+    background: rgb(10, 6, 6);
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    position: absolute;
+}
+
+.left {
+    top: 50px;
+    left: 45px;
+}
+
+.right {
+    top: 50px;
+    right: 45px;
+}
+
+.nose {
+    background: orange;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+}
+.dotnose {
+    background: black;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    bottom: 85px;
+    right: 87px;
+
+}
+.ear {
+    background: orange;
+    width: 30px;
+    height: 50px;
+}
+.ear2 {
+    background: orange;
+    width: 40px;
+    height: 50px;
+    right: 100px;
+    position: absolute;
+}
+
+.mouth {
+    background: pink;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    border-radius:0 0 100% 100%;
+
+   
+
+}
